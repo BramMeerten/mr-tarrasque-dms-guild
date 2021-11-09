@@ -4,19 +4,24 @@
     "priority": 1,
     "condition": {
       "urlFilter": "||dmsguild.com/",
-      "resourceTypes": ["main_frame"]
+      "resourceTypes": [
+        "main_frame"
+      ]
     },
     "action": {
       "type": "redirect",
       "redirect": {
         "transform": {
-	      "queryTransform": {
-	        "addOrReplaceParams": [
-	          {"key": "affiliate_id", "value": "1516286"}
-	        ]
-	      }
-	    }
-  }
+          "queryTransform": {
+            "addOrReplaceParams": [
+              {
+                "key": "affiliate_id",
+                "value": "1516286"
+              }
+            ]
+          }
+        }
+      }
     }
   }
 ]

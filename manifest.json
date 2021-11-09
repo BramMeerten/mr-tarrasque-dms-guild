@@ -7,13 +7,15 @@
     "declarativeNetRequest"
   ],
   "host_permissions": [
-  	"*://*.dmsguild.com/*"
+    "*://*.dmsguild.com/*"
   ],
   "declarative_net_request": {
-  	"rule_resources": [{
-	  "id": "ruleset_1",
-      "enabled": true,
-      "path": "rules.json"	
-  	}]
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
   }
 }
